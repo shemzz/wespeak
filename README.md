@@ -1,22 +1,13 @@
 # Adonis API application
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+This is the API for a web application "WeSpeak" I am working on. It is basically a language learning app that helps one learn the basics of the Tyab(Kataf) language as well as many other endangered languages. I plan to support many languages from Kaduna, Nigeria, and far beyond.
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+Please you can support and contribute to this project. contact me here +2348035542225 or  davidshemang@gmail.com
 
 ## Setup
 
-Use the adonis command to install the blueprint
+Clone the repo and use `npm install` to get the API set.
 
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
 
 
 ### Migrations
@@ -26,3 +17,4 @@ Run the following command to run startup migrations.
 ```js
 adonis migration:run
 ```
+run `adonis serve` to get the API running locally on port 3333
