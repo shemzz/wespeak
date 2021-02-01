@@ -6,7 +6,7 @@ class LanguageController {
   // add language
   async add ({ request, response }) {
       // Save booking details to database
-    const addLang = await Language.create({
+    const addLang = await Language.findorCreate({
         name: request.input('name')
     })
 

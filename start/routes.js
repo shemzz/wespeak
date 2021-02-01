@@ -20,7 +20,14 @@ Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
 
-Route.post('/add', 'LanguageController.add')
+Route.post('add', 'LanguageController.add')
 
-Route.get('/list', 'LanguageController.list')
+Route.get('list', 'LanguageController.list')
 
+Route.post('add-category', 'CategoryController.add')
+
+Route.get('categories', 'CategoryController.list')
+
+Route.post('add-subcategory', 'SubcategoryController.add')
+
+Route.get(':id/subcategories', 'SubcategoryController.list')

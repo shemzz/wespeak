@@ -1,8 +1,8 @@
 # Adonis API application
 
-This is the API for a web application "WeSpeak" I am working on. It is basically a language learning app that helps one learn the basics of the Tyab(Kataf) language as well as many other endangered languages. I plan to support many languages from Kaduna, Nigeria, and far beyond.
+This is the API for a web application "WeSpeak" I am working on. It is a language learning app that helps one learn the basics of the Tyab(Kataf) language and many other endangered languages. I plan to support many languages from Kaduna, Nigeria, and far beyond.
 
-Please you can support and contribute to this project. contact me here +2348035542225 or  davidshemang@gmail.com
+Please you can support and contribute to this project. contact me here at +2348035542225 or  davidshemang@gmail.com
 
 ## Setup
 
